@@ -5,7 +5,7 @@
 <p>Phone number: <%= @restaurant.phone_number %></p>
 <p>Cuisine: <%= @restaurant.category %></p>
 
-<p><strong>Reviews</strong></p>
+<h2>Reviews</h2>
 <ul class="list-group" style="width: 50%">
   <% @restaurant.reviews.each do |review| %>
     <li class="list-group-item" ><%= review.content %></li>
